@@ -1,0 +1,78 @@
+body {
+  background-color: rgb(249, 249, 117);
+  font-family: "Roboto Flex", sans-serif;
+}
+.card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 64px;
+  width: 510px;
+  padding-top: 23px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.avatar {
+  border-radius: 100%;
+  box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.25);
+  width: 160px;
+  height: 160px;
+}
+.name {
+  font-weight: 500;
+  font-size: 38px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #000;
+  margin: 0;
+}
+.top-text {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: underline;
+  margin: 0;
+}
+.contact-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.button-box {
+  display: flex;
+  gap: 32px;
+  padding-bottom: 44px;
+}
+.follow-btn {
+  border-radius: 999px;
+  padding: 16px;
+  width: 191px;
+  height: 57px;
+  background-color: #df3f8c;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 125%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+.message-btn {
+  border: 1px solid #838383;
+  border-radius: 999px;
+  padding: 16px;
+  width: 191px;
+  height: 57px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 125%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #838383;
+  cursor: pointer;
+}
+.bottom-text {
+  width: 414px;
+  text-align: center;
+  padding-bottom: 75px;
+}
