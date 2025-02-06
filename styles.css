@@ -1,5 +1,9 @@
 body {
-  background-color: rgb(249, 249, 117);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #edf0d5;
   font-family: "Roboto Flex", sans-serif;
 }
 .card {
