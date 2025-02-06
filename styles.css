@@ -21,6 +21,9 @@ body {
   width: 160px;
   height: 160px;
 }
+.soc-icon {
+  padding: 3px;
+}
 .name {
   font-weight: 500;
   font-size: 38px;
@@ -28,6 +31,7 @@ body {
   text-align: center;
   color: #000;
   margin: 0;
+  padding-top: 141px;
 }
 .top-text {
   font-weight: 400;
@@ -36,11 +40,15 @@ body {
   color: rgba(0, 0, 0, 0.6);
   text-decoration: underline;
   margin: 0;
+  padding-bottom: 34px;
 }
 .contact-list {
   display: flex;
   flex-direction: row;
   list-style: none;
+  gap: 34px;
+  margin: 0 auto;
+  padding: 0;
 }
 .button-box {
   display: flex;
